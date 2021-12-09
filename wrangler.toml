@@ -1,0 +1,8 @@
+compatibility_date = "2021-12-09"
+
+kv_namespaces = [
+  { binding = "KV", id = "abbdcadc8ee84404a57aca2772f6d73d", preview_id = "<ignored>" },
+]
+
+[miniflare]
+kv_persist = true
