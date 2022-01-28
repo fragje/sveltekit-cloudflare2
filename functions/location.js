@@ -8,7 +8,7 @@ export async function onRequest({ request, env }) {
 	// console.log(env, value);
 
 	// await env.KV.put("flags", "test");
-	const task = await env.TodoList.get("todos");
+	const task = await env.TODO_LIST.get("todos");
 
   return new Response(task);
 
